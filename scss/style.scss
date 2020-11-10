@@ -170,3 +170,75 @@ body {
     left: 0;
   }
 }
+
+
+
+.banner-section {
+  margin-top: 78px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__slider {
+    max-width: 870px;
+  }
+
+  &__slider-item {
+  }
+
+  &__item {
+  }
+  &__slider-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
+    cursor: pointer;
+  }
+  &__slider-btnprev{
+    left: 20px;
+  }
+  &__slider-btnnext{
+    right: 20px;
+  }
+}
+
+.slick-dots{
+  position: absolute;
+}
+.container {
+}
+.sale-item {
+
+  &__top {
+  }
+
+  &__info {
+  }
+
+  &__price {
+  }
+
+  &__price-new {
+  }
+
+  &__price-old {
+  }
+
+  &__img {
+  }
+
+  &__title {
+  }
+
+  &__footer {
+  }
+}
+.price {
+}
+
