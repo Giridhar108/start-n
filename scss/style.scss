@@ -11,6 +11,7 @@ html {
 a {
   text-decoration: none;
   color: inherit;
+  display: inline-block;
 }
 
 ul,
@@ -40,6 +41,10 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
+}
+
+.page-section {
+  margin-bottom: 80px;
 }
 
 .container {
@@ -82,6 +87,7 @@ body {
   }
 
   &__bottom {
+    margin-bottom: 80px;
   }
 }
 
@@ -176,7 +182,6 @@ body {
 }
 
 .banner-section {
-  margin-top: 78px;
   &__inner {
     display: flex;
     justify-content: space-between;
@@ -313,7 +318,7 @@ body {
   }
 
   &__title {
-    font-family: 'SFProDisplay-Bold', sans-serif;
+    font-family: "SFProDisplay-Bold", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
@@ -335,4 +340,72 @@ body {
 .price {
   position: relative;
   font-family: "Barlow", sans-serif;
+}
+
+.search {
+  &__inner {
+  }
+
+  &__tabs {
+    margin-bottom: 25px;
+  }
+
+  &__tabs-item {
+    padding: 11px 26px 12px;
+  }
+
+  &__tabs-item--active {
+    font-family: 'SFProDisplay-Bold', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #f0f0f4;
+  }
+
+  &__content {
+  }
+
+  &__content-form {
+    display: flex;
+  }
+
+  &__content-item {
+    display: none;
+  }
+
+  &__content-item--activ{
+    display: block;
+  }
+
+  &__content-input {
+    width: 100%;
+    padding: 5px 20px;
+    border: none;
+    background: #f0f0f4;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &__content-input::placeholder {
+    color: #656464;
+  }
+
+  &__content-btn {
+    margin-left: -3px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "SFProDisplay-Bold", sans-serif;
+    background: #1c62cd;
+    border-radius: 3px;
+    padding: 17px 41px;
+    border: none;
+  }
+}
+.page-section {
+}
+.container {
 }

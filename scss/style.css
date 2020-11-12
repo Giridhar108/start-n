@@ -13,6 +13,7 @@ html {
 a {
   text-decoration: none;
   color: inherit;
+  display: inline-block;
 }
 
 ul,
@@ -42,6 +43,10 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
+}
+
+.page-section {
+  margin-bottom: 80px;
 }
 
 .container {
@@ -86,6 +91,10 @@ body {
   height: 30px;
   left: 0;
   top: -10px;
+}
+
+.header__bottom {
+  margin-bottom: 80px;
 }
 
 .menu__item {
@@ -177,10 +186,6 @@ body {
   width: 100%;
   right: auto;
   left: 0;
-}
-
-.banner-section {
-  margin-top: 78px;
 }
 
 .banner-section__inner {
@@ -342,7 +347,7 @@ body {
 }
 
 .sale-item__title {
-  font-family: 'SFProDisplay-Bold', sans-serif;
+  font-family: "SFProDisplay-Bold", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -365,5 +370,75 @@ body {
 .price {
   position: relative;
   font-family: "Barlow", sans-serif;
+}
+
+.search__tabs {
+  margin-bottom: 25px;
+}
+
+.search__tabs-item {
+  padding: 11px 26px 12px;
+}
+
+.search__tabs-item--active {
+  font-family: 'SFProDisplay-Bold', sans-serif;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #f0f0f4;
+}
+
+.search__content-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search__content-item {
+  display: none;
+}
+
+.search__content-item--activ {
+  display: block;
+}
+
+.search__content-input {
+  width: 100%;
+  padding: 5px 20px;
+  border: none;
+  background: #f0f0f4;
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.search__content-input::-webkit-input-placeholder {
+  color: #656464;
+}
+
+.search__content-input:-ms-input-placeholder {
+  color: #656464;
+}
+
+.search__content-input::-ms-input-placeholder {
+  color: #656464;
+}
+
+.search__content-input::placeholder {
+  color: #656464;
+}
+
+.search__content-btn {
+  margin-left: -3px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "SFProDisplay-Bold", sans-serif;
+  background: #1c62cd;
+  border-radius: 3px;
+  padding: 17px 41px;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
