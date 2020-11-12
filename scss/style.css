@@ -316,7 +316,7 @@ body {
   top: 8px;
   width: 15px;
   height: 18px;
-  background-image: url("/images/icons-price.svg");
+  background-image: url("../images/icons-price.svg");
 }
 
 .sale-item__price-old {
@@ -328,7 +328,7 @@ body {
   color: #c4c4c4;
   margin-right: 15px;
   background-repeat: no-repeat;
-  background-image: url("/images/old-line.svg");
+  background-image: url("../images/old-line.svg");
 }
 
 .sale-item__price-old::after {
@@ -338,7 +338,7 @@ body {
   top: 8px;
   width: 8px;
   height: 10px;
-  background-image: url("/images/icons-price-old.svg");
+  background-image: url("../images/icons-price-old.svg");
 }
 
 .sale-item__img {
