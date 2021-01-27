@@ -133,16 +133,16 @@
     </div>
   </section>
 
-  <section class="search page-section">
+  <div class="search page-section">
     <div class="container">
       <div class="search__inner">
         <div class="search__tabs">
-          <a href="#tab-1" class="search__tabs-item search__tabs-item--active">Поиск по номеру</a>
-          <a href="#tab-2" class="search__tabs-item">Поиск по марке</a>
-          <a href="#tab-3" class="search__tabs-item">Поиск по названию товара</a>
+          <a href="#tab-1" class="tab search__tabs-item tab--active">Поиск по номеру</a>
+          <a href="#tab-2" class="tab search__tabs-item">Поиск по марке</a>
+          <a href="#tab-3" class="tab search__tabs-item">Поиск по названию товара</a>
         </div>
         <div class="search__content">
-          <div id="tab-1" class="search__content-item search__content-item--activ">
+          <div id="tab-1" class="tabs-content search__content-item tabs-content--active">
             <form class="search__content-form">
               <input class="search__content-input" type="text" placeholder="Введите номер" />
               <button class="search__content-btn" type="submit">
@@ -150,7 +150,7 @@
               </button>
             </form>
           </div>
-          <div id="tab-2" class="search__content-item">
+          <div id="tab-2" class="tabs-content search__content-item">
             <form class="search__content-form">
               <input class="search__content-input" type="text" placeholder="Введите марку" />
               <button class="search__content-btn" type="submit">
@@ -158,13 +158,124 @@
               </button>
             </form>
           </div>
-          <div id="tab-3" class="search__content-item">
+          <div id="tab-3" class="tabs-content search__content-item">
             <form class="search__content-form">
               <input class="search__content-input" type="text" placeholder="Введите название товара" />
               <button class="search__content-btn" type="submit">
                 искать
               </button>
             </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="categories page-section">
+    <div class="container">
+      <div class="categories__inner">
+        <a href="#" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Квадроциклы</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-1.png" alt="">
+          </div>
+        </a>
+        <a href="#" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Гидроциклы</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-2.png" alt="">
+          </div>
+        </a>
+        <a href="#" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Катера</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-3.png" alt="">
+          </div>
+        </a>
+        <a href="#" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Снегоходы</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-4.png" alt="">
+          </div>
+        </a>
+        <a href="#" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Вездеходы</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-5.png" alt="">
+          </div>
+        </a>
+        <a href="#" class="categories__item">
+          <div class="categories__item-info">
+            <h4 class="categories__item-title">Двигатели</h4>
+            <p class="categories__item-text">Подробнее</p>
+          </div>
+          <div class="categories__item-img">
+            <img src="images/categories-6.png" alt="">
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="products page-section">
+    <div class="container">
+      <div class="products__inner">
+        <div class="tabs-wrapper">
+          <div class="tabs products__tabs">
+            <a href="" class="tab products__tab tab--active">запчасти</a>
+            <a href="" class="tab products__tab">моторы</a>
+            <a href="" class="tab products__tab">шины </a>
+            <a href="" class="tab products__tab">электроника</a>
+            <a href="" class="tab products__tab">инструменты</a>
+            <a href="" class="tab products__tab">аксессуары </a>
+          </div>
+
+          <div class="tabs-constainer products__container">
+            <div class="tabs-content produsts__content tabs-content--active">
+              <div class="product-slider">
+                <div class="product-slider__item">
+                  <div class="product-item__wrapper">
+                    <button class="product-item__favorite"></button>
+                    <button class="product-item__basket">
+                      <img src="./images/basket-white.svg" alt="">
+                    </button>
+                    <a class="product-item product-item--sale" href="">
+                      <p class="product-item__hover-text">посмотреть товар</p>
+                      <img class="product-item__img" src="./images/product-1.png" alt="">
+                      <h4 class="product-item__title">
+                        Водонепроницаемый
+                        Рюкзак
+                      </h4>
+                      <p class="price product-item__price">
+                        9 800 ₽
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tabs-content produsts__content"></div>
+            <div class="tabs-content produsts__content"></div>
+            <div class="tabs-content produsts__content"></div>
+            <div class="tabs-content produsts__content"></div>
+            <div class="tabs-content produsts__content"></div>
           </div>
         </div>
       </div>
@@ -177,3 +288,12 @@
 </body>
 
 </html>
+
+<!-- <div class="tabs-wrapper">
+  <div class="tabs">
+    <a href="" class="tab tab--active"></a>
+  </div>
+  <div class="tabs-constainer">
+    <div class="tabs-content"></div>
+  </div>
+</div> -->
